@@ -1,7 +1,15 @@
 # Open Street Map - Data Wrangling
+### Overview
+This project cleans and explores OpenStreetMap data for St. Petersburg, Florida, focusing on standardizing street names and postal codes, importing the data into a SQLite database, and analyzing patterns using SQL queries.
 
-This repository contains the following files:
+### Data Wrangling - OpenStreetMap data for St. Petersburg, Florida
+- Audits and corrects inconsistencies in street names and postal codes for uniform formatting.
+- Converts raw OpenStreetMap XML data into a structured SQLite database with separate tables for nodes, ways, and tags.
+- Analyzes user contributions and geographic data to extract insights like the most common religions, unique users, and editing trends.
 
+
+
+### Files
 1. README.md - A file describing other files in this repository.
 
 2. audit.py - Python script to audit street names and postal codes in the sample file "petersburg_sample.osm" file.
